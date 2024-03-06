@@ -1,0 +1,45 @@
+<?php
+session_start();
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>test</title>
+</head>
+<body>
+    <div class="game">
+
+        <ul class="board">
+            <li><i class="fa fa-bell-o" style="font-size: 220%;"></i></li>
+            <!-- <li>f</li> -->
+            <li><i class="fa fa-address-card-o" style="font-size: 220%;"></i></li>
+        </ul>
+
+
+        <div class="balance">
+            <a class="balance_php">0.00$</a>
+        </div>
+        
+
+        <div>
+            <img class="box" style="height: 70%; width: 70%; filter: drop-shadow(10px 10px 4px #284268);" src="box.png" alt="err">
+        </div>
+
+
+        <div>
+            <button  id="openButton" class="knopka" onclick="shakeBox()">OPEN</button>
+            <script src="shake.js"></script>
+        </div>
+
+
+    </div>
+</body>
+</html>
