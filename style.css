@@ -1,7 +1,6 @@
 body{
     background-color: #4a4949;
     font-family: Montserrat;
-    padding-top: 5%;
 }
 
 
@@ -9,9 +8,8 @@ body{
 .game{
     text-align: center;
     background-color: gray;
-    height: 800px;
-    width: 600px;
-    margin: auto auto;
+    height: 100%;
+    width: 100%;
 }
 
 .knopka{
@@ -35,7 +33,7 @@ body{
 .board{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 2%;
     background-color: rgb(185, 185, 185);
 }
 
